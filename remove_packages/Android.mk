@@ -15,7 +15,6 @@ LOCAL_OVERRIDES_PACKAGES += \
     talkback \
     YouTube \
     Accord \
-    GameSpace \
     FossifyGallery
 
 LOCAL_UNINSTALLABLE_MODULE := true
