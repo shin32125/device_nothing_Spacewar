@@ -4,13 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Derp Flags
-#DERP_BUILDTYPE=Community
-DERP_VERSION_APPEND_TIME_OF_DAY=true
-EXTRA_UDFPS_ICONS=true
-TARGET_NOT_USES_BLUR=true
-TARGET_USES_PICO_GAPPS=true
-
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
