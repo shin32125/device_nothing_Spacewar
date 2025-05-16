@@ -27,7 +27,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_Spacewar
+PRODUCT_NAME := lineage_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
