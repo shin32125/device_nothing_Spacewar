@@ -43,4 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=Spacewar \
     DeviceProduct=Spacewar \
     BuildFingerprint=Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys \
-    BuildDesc="Spacewar-user 12 SKQ1.211230.001 1666412462 release-keys"
+    BuildDesc="Spacewar-user 12 SKQ1.211230.001 1666412462 release-keys" \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
