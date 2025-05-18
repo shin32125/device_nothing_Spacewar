@@ -22,7 +22,7 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#TARGET_GAPPS_ARCH := arm64
+TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_PICO_GAPPS := true
 
