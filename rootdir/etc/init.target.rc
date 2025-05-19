@@ -402,3 +402,6 @@ on property:sys.touch.fod_en.enable=1
     write sys/bus/spi/devices/spi0.0/fts_gesture_mode 3
 on property:sys.touch.fod_en.enable=0
     write sys/bus/spi/devices/spi0.0/fts_gesture_mode 4
+
+on property:sys.boot_completed=1
+    swapon_all /vendor/etc/fstab.zram
