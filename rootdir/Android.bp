@@ -37,12 +37,6 @@ prebuilt_etc {
     vendor_ramdisk_available: true,
 }
 
-prebuilt_etc {
-    name: "fstab.zram",
-    src: "fstab.zram",
-    vendor: true,
-}
-
 // Init configuration files
 prebuilt_etc {
     name: "init.qcom.rc",

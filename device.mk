@@ -229,7 +229,6 @@ PRODUCT_COPY_FILES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.default \
-    fstab.zram \
     fstab.default.vendor_ramdisk \
     init.class_main.sh \
     init.kernel.post_boot.sh \
