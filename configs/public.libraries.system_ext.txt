@@ -1,1 +1,0 @@
-libencoderjpeg_jni.so

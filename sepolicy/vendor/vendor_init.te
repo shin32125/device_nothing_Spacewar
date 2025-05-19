@@ -1,3 +1,0 @@
-get_prop(vendor_init, bootanim_system_prop)
-
-get_prop(vendor_init, persist_debug_prop)
