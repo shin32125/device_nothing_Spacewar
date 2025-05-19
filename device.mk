@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.nothing \
     libudfpshandler
 
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/nothing:libudfps_extension.nothing)
 TARGET_HAS_UDFPS := true
 
 # Health
