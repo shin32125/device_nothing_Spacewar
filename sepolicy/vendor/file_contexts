@@ -1,0 +1,19 @@
+# Camera
+/vendor/lib(64)?/libipebpsstriping\.so      u:object_r:same_process_hal_file:s0
+
+# Devices
+/dev/goodix_fp              u:object_r:fingerprint_device:s0
+/dev/pn553                  u:object_r:nfc_device:s0
+
+# Fingerprint
+/data/vendor/goodix(/.*)?   u:object_r:fingerprint_data_file:s0
+
+# HALs
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.nothing     u:object_r:hal_fingerprint_default_exec:s0
+
+# LEDs
+/sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led(/.*)?                          u:object_r:sysfs_leds:s0
+
+# Vibrator
+/dev/aw8697_haptic                                                u:object_r:aac_richtap_dev_device:s0
+/vendor/bin/hw/android.hardware.vibrator.service.spacewar         u:object_r:hal_vibrator_default_exec:s0
