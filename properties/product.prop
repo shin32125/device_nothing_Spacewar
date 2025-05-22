@@ -31,4 +31,4 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
 # Thermal
-persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
+persist.vendor.thermal.config=/vendor/etc/thermal.mid.conf
