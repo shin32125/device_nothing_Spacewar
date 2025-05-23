@@ -17,7 +17,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     Accord \
     FossifyGallery \
     WellbeingPrebuilt \
-    Wellbeing
+    Wellbeing \
+    AudioFX
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
