@@ -15,6 +15,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
 
+#ViPER4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
